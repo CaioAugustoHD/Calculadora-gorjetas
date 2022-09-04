@@ -8,13 +8,23 @@
 
 main{
     height: 70vh;
+    padding: 3%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-    section{
-        font-size: 1.2em;
-        border: 1px solid red;
-    }
+header{
+    text-align: center;
+}
+
+section{
+    font-size: 1.2em;
+    border: 1px solid red;
+}
+
+input{
+    padding: 5px;
+    margin-top: 3px;
+}
