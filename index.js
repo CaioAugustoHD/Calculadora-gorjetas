@@ -10,6 +10,6 @@ function somarJantarTaxa(){
     let valorJantar = Number(jantar.value);   //transformando string em numbers
     let numeroPessoas = Number(pessoas.value);
 
-    let soma = valorJantar + (valorJantar * taxa);
-    console.log(soma);    
+    let soma = (valorJantar + (valorJantar * taxa)) / numeroPessoas;
+    console.log(soma);
 }
