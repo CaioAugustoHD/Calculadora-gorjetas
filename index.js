@@ -3,6 +3,7 @@ const pessoas = document.getElementById('pessoas');
 const botao = document.querySelector('button');
 const valorPessoa = document.getElementById('valorPessoa');
 const sectionResultado = document.getElementById('sectionResultado');
+const valorporPessoa = document.getElementById('valorporPessoa');
 
 sectionResultado.style.visibility = "hidden";
 
@@ -17,12 +18,13 @@ botao.addEventListener('click', ()=>{
 });
 
 function somarJantarTaxa(){
-    const taxa = Number(document.getElementById('taxa').value);
-    
+    const taxa = Number(document.getElementById('taxa').value);      //pega qual o valor da taxa
+
     sectionResultado.style.visibility = "visible";                   //exibe a seção de resultado
     let valorJantar = Number(jantar.value);                          //transformando string em numbers
     let numeroPessoas = Number(pessoas.value);
 
     let soma = (valorJantar + (valorJantar * taxa)) / numeroPessoas;
-    console.log(soma);
+    
+    valorporPessoa.innerHTML = soma;
 }
