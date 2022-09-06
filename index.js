@@ -1,5 +1,4 @@
 const jantar = document.getElementById('jantar');
-const taxa = Number(document.getElementById('taxa').value);
 const pessoas = document.getElementById('pessoas');
 const botao = document.querySelector('button');
 const valorPessoa = document.getElementById('valorPessoa');
@@ -18,6 +17,8 @@ botao.addEventListener('click', ()=>{
 });
 
 function somarJantarTaxa(){
+    const taxa = Number(document.getElementById('taxa').value);
+    
     sectionResultado.style.visibility = "visible";                   //exibe a seção de resultado
     let valorJantar = Number(jantar.value);                          //transformando string em numbers
     let numeroPessoas = Number(pessoas.value);
