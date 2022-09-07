@@ -8,6 +8,7 @@
 
 main{
     height: 94vh;
+    min-height: 550px;
     margin: 3vh 0;
     padding: 3%;
     border: 1px solid black;
@@ -46,4 +47,21 @@ button{
     width: 50%;
     margin: 0 25%;
     min-height: 40px;
+}
+
+/*Responvidade >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Tela* de smartphone pequenos */
+@media (max-height: 600px){
+    main{
+        min-height: 465px;
+    }
+
+    section{
+        font-size: 1em;
+    }
+
+    h1{
+        font-size: 1.6em;
+    }
+
 }
