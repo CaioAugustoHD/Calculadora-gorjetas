@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+body{
+ background-image: linear-gradient(to bottom,#8D99AE, #2B2D42);
+ background-attachment: fixed;
+}
+
 main{
     height: 94vh;
     min-height: 550px;
@@ -17,15 +23,22 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #EDF2F4;
 }
 
 header{
+    width: 100%;
+    padding: 10px;
     text-align: center;
+    background-color: #8d99aec1;
+    color:#1b1c2a;
+    border-radius: 5px;
+
 }
 
 section{
     font-size: 1.3em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 section#sectionResultado p{
@@ -36,6 +49,7 @@ input{
     padding: 5px;
     margin-top: 3px;
     font-size: 0.9em;
+    border-radius: 5px;
 }
 
 select{
@@ -43,12 +57,14 @@ select{
     padding: 5px;
     margin-top: 3px;
     font-size: 0.9em;
+    border-radius: 5px;
 }
 
 button{
     width: 50%;
     margin: 0 25%;
     min-height: 40px;
+    border-radius: 5px;
 }
 
 /*Responvidade >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -125,5 +141,9 @@ button{
 
     h1{
         font-size: 2.5em;
+    }
+
+    button{
+        font-size: 1em;
     }
 }
