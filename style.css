@@ -6,7 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 body{
  background-image: linear-gradient(to bottom,#8D99AE, #2B2D42);
  background-attachment: fixed;
@@ -24,6 +23,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     background-color: #EDF2F4;
+    box-shadow: 0 0 2px #1b1c2a;
 }
 
 header{
@@ -33,7 +33,7 @@ header{
     background-color: #8d99aec1;
     color:#1b1c2a;
     border-radius: 5px;
-
+    box-shadow: 0 0 2px #8d99aec1;
 }
 
 section{
@@ -46,25 +46,47 @@ section#sectionResultado p{
 }
 
 input{
+    border: 1px solid #1b1c2a;
     padding: 5px;
     margin-top: 3px;
     font-size: 0.9em;
     border-radius: 5px;
+    box-shadow: 0 0 2px #1b1c2a;
 }
 
 select{
+    border: 1px solid #1b1c2a;
     width: 23%;
     padding: 5px;
     margin-top: 3px;
     font-size: 0.9em;
     border-radius: 5px;
+    box-shadow: 0 0 2px #1b1c2a;
 }
 
 button{
+    border: 1px solid #1b1c2a;
+    background-color: #8d99aec1;
+    color: #1b1c2a;
     width: 50%;
     margin: 0 25%;
     min-height: 40px;
     border-radius: 5px;
+    box-shadow: 0 0 2px #1b1c2a;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #8d99ae3a;
+    font-weight: bold;
+    box-shadow: 0 0 6px #1b1c2a;
+
+}
+
+input:focus, select:focus{
+    outline: 0;
+    border: 1px solid #1b1c2a;
+    box-shadow: 0 0 6px #1b1c2a;
 }
 
 /*Responvidade >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
