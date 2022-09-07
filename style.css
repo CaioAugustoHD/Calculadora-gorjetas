@@ -9,7 +9,8 @@
 main{
     height: 94vh;
     min-height: 550px;
-    margin: 3vh 0;
+    margin: 3vh 2vw;
+    width: 96vw;
     padding: 3%;
     border: 1px solid black;
     display: flex;
@@ -22,7 +23,7 @@ header{
 }
 
 section{
-    font-size: 1.2em;
+    font-size: 1.3em;
     border: 1px solid red;
 }
 
@@ -69,7 +70,8 @@ button{
 @media (min-width: 600px){
     main{
         height: 88vh;
-        margin: 6vh 0;
+        width: 92vw;
+        margin: 6vh 4vw;
     }
 
     section{
@@ -89,7 +91,8 @@ button{
 @media (min-width: 800px){
     main{
         height: 88vh;
-        margin: 6vh 0;
+        width: 92vw;
+        margin: 6vh 4vw;
     }
 
     section{
