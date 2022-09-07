@@ -13,6 +13,7 @@ main{
     width: 96vw;
     padding: 3%;
     border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,5 +110,20 @@ button{
     }
 }
 
-/* corrigir bug do landscap */
-/* colocar magin nas laterais */
+/* Telas de pc e notbooks */
+@media (min-width: 1024px){
+    main{
+        width: 70vw;
+        margin: 5px 15vw;
+        min-height: 95vh;
+        padding: 1% 5%;
+    }
+
+    section{
+        font-size: 1.4em;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+}
