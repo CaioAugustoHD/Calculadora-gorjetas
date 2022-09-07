@@ -50,7 +50,7 @@ button{
 }
 
 /*Responvidade >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-/* Tela* de smartphone pequenos */
+/* Tela de smartphone pequenos */
 @media (max-height: 600px), (max-width: 280px){
     main{
         min-height: 465px;
@@ -62,5 +62,26 @@ button{
 
     h1{
         font-size: 1.6em;
+    }
+}
+
+/* Tela de tablet */
+@media (min-width: 600px){
+    main{
+        height: 88vh;
+        margin: 6vh 0;
+    }
+
+    section{
+        font-size: 2em;
+    }
+
+    h1{
+        font-size: 3.3em;
+    }
+
+    button{
+        min-height: 60px;
+        font-size: 0.8em;
     }
 }
