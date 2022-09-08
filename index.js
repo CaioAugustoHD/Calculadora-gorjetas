@@ -26,5 +26,6 @@ function somarJantarTaxa(){
 
     let soma = (valorJantar + (valorJantar * taxa)) / numeroPessoas;
     
-    valorporPessoa.innerHTML = soma;
+    let somaFinal = soma.toFixed(2);                                //Para ficar com apenas 2 casas decimais
+    valorporPessoa.innerHTML = somaFinal;
 }
