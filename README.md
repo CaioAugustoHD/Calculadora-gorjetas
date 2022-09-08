@@ -28,7 +28,10 @@ As principais funcionalidades do projeto são:
 
 ✅ Soma da conta com a taxa de serviço escolhida;
 
-✅ Dividir o total da conta com o número de pessoas.
+✅ Dividir o total da conta com o número de pessoas;
+
+✅ Responsivo em diversos tamanhos de tela.
+
 
 ## Tecnologias
 * HTML5
@@ -42,8 +45,22 @@ As principais funcionalidades do projeto são:
 
 
 ## Imagens
+<p align="center">Tela de computador ou notebook:</p>
+<img src="img/telapc.png" alt="layout em computadores">
 
+---
+<p align="center">Tela de tablet:</p>
+<div align="center">
+  <img src="img/telatablet.png" alt="layout em tablets">
+</div>
 
+---
+<p align="center">Tela de smartphone:</p>
+<div align="center">
+  <img src="img/telacelular.png" alt="layout em smartphones">
+</div>
+
+---
 
 ## Como usar
 Para usar, abra a página com o link do deploy para ser direcionado para a calculadora. Preencha os campos com o valor do jantar, o número de pessoas para dividir a conta e selecione a taxa de serviço. Após concluir os passos anteriores, clique no botão "Calcular" e pronto! o valor por pessoa já será exibido!
