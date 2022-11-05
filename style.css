@@ -12,10 +12,11 @@ body{
 }
 
 main{
-    height: 94vh;
-    min-height: 550px;
-    margin: 3vh 2vw;
-    width: 96vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
     padding: 3%;
     border: 1px solid black;
     border-radius: 10px;
@@ -87,85 +88,4 @@ input:focus, select:focus{
     outline: 0;
     border: 1px solid #1b1c2a;
     box-shadow: 0 0 6px #1b1c2a;
-}
-
-/*Responvidade >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-/* Tela de smartphone pequenos */
-@media (max-height: 600px), (max-width: 280px){
-    main{
-        min-height: 465px;
-    }
-
-    section{
-        font-size: 1em;
-    }
-
-    h1{
-        font-size: 1.6em;
-    }
-}
-
-/* Tela de tablet */
-@media (min-width: 600px){
-    main{
-        height: 88vh;
-        width: 92vw;
-        margin: 6vh 4vw;
-    }
-
-    section{
-        font-size: 2em;
-    }
-
-    h1{
-        font-size: 3.3em;
-    }
-
-    button{
-        min-height: 60px;
-        font-size: 0.8em;
-    }
-}
-
-@media (min-width: 800px){
-    main{
-        height: 88vh;
-        width: 92vw;
-        margin: 6vh 4vw;
-    }
-
-    section{
-        font-size: 2.3em;
-    }
-
-    h1{
-        font-size: 3.3em;
-    }
-
-    button{
-        min-height: 60px;
-        font-size: 0.8em;
-    }
-}
-
-/* Telas de pc e notbooks */
-@media (min-width: 1024px){
-    main{
-        width: 70vw;
-        margin: 5px 15vw;
-        min-height: 95vh;
-        padding: 1% 5%;
-    }
-
-    section{
-        font-size: 1.4em;
-    }
-
-    h1{
-        font-size: 2.5em;
-    }
-
-    button{
-        font-size: 1em;
-    }
 }
