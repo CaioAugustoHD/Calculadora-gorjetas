@@ -16,7 +16,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 350px;
     padding: 23px 0;
     border: 1px solid black;
     border-radius: 10px;
@@ -38,6 +38,10 @@ header{
 section{
     font-size: 1em;
     margin: 20px 25px 0;
+}
+
+section#sectionResultado {
+    text-align: center;
 }
 
 section#sectionResultado p{
@@ -69,7 +73,7 @@ button{
     background-color: #8d99aec1;
     color: #1b1c2a;
     width: 60%;
-    margin: 15px 20%;
+    margin: 15px 20% 0;
     padding: 6px;
     font-size: 0.8em;
     border-radius: 20px;
