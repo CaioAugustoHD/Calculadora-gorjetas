@@ -17,7 +17,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    padding: 3%;
+    padding: 23px 0;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
@@ -29,17 +29,15 @@ main{
 
 header{
     width: 100%;
-    padding: 10px;
     text-align: center;
-    background-color: #8d99aec1;
     color:#1b1c2a;
-    border-radius: 5px;
-    box-shadow: 0 0 2px #8d99aec1;
+    font-size: 0.8em;
+    /* border: 1px solid red; */
 }
 
 section{
     font-size: 1.3em;
-    /* border: 1px solid red; */
+    margin: 10px 23px 0;
 }
 
 section#sectionResultado p{
@@ -48,9 +46,9 @@ section#sectionResultado p{
 
 input{
     border: 1px solid #1b1c2a;
-    padding: 5px;
+    padding: 3px 5px;
     margin-top: 3px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     border-radius: 5px;
     box-shadow: 0 0 2px #1b1c2a;
 }
