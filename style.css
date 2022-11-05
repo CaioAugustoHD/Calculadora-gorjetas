@@ -32,12 +32,12 @@ header{
     text-align: center;
     color:#1b1c2a;
     font-size: 0.8em;
-    /* border: 1px solid red; */
+    margin-bottom: 10px;
 }
 
 section{
-    font-size: 1.3em;
-    margin: 10px 23px 0;
+    font-size: 1.1em;
+    margin: 10px 30px 0;
 }
 
 section#sectionResultado p{
@@ -46,20 +46,21 @@ section#sectionResultado p{
 
 input{
     border: 1px solid #1b1c2a;
-    padding: 3px 5px;
+    padding: 6px 13px;
     margin-top: 3px;
     font-size: 0.8em;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 0 2px #1b1c2a;
+    width: 100%;
 }
 
 select{
     border: 1px solid #1b1c2a;
     width: 23%;
-    padding: 5px;
+    padding: 3px 9px;
     margin-top: 3px;
-    font-size: 0.9em;
-    border-radius: 5px;
+    font-size: 0.8em;
+    border-radius: 15px;
     box-shadow: 0 0 2px #1b1c2a;
 }
 
@@ -84,6 +85,6 @@ button:hover{
 
 input:focus, select:focus{
     outline: 0;
-    border: 1px solid #1b1c2a;
+    border: 1px solid #000;
     box-shadow: 0 0 6px #1b1c2a;
 }
